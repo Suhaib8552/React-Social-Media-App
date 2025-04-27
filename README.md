@@ -1,2 +1,40 @@
 # React-Social-Media-App
-## The React Social Media Dashboard is a modular web application built using React’s useState Hook, props, and a component-based structure. It features four main sections: a Topbar with a real-time search bar to filter posts by username or caption, a Leftbar containing static navigation options (like Feed, Chats, Groups) with a toggleable friend list, a Feed Section displaying dynamic posts through reusable components, and a Rightbar showing birthday notifications and a list of online friends. The project emphasizes clean UI, real-time interactivity, and reusable, scalable components for a smooth and engaging user experience.
+#### This project is a Social Media Dashboard built using React, focusing on component-based architecture, useState Hook, and props for efficient state management and communication between components.
+
+### The dashboard consists of four main sections:
+
+### Sections:
+### 1. Topbar
+#### - Contains the application logo and a search bar.
+
+#### - Search Functionality:
+
+##### --> Users can search posts by username or caption.
+
+##### --> The useState Hook is used to manage the search input state.
+
+##### --> Posts are dynamically filtered in the Feed based on the search query.
+
+### 2. Leftbar
+#### - Displays static navigation options like: Feed, Groups etc.
+
+#### - Also includes a Friend List section:
+
+##### --> Users can show/hide the friend list using a toggle button.
+
+##### --> The visibility is controlled using the useState Hook.
+
+### 3. Feed Section
+#### - Displays a list of posts.
+
+#### - Each Post is a separate component that receives data through props like:
+
+##### --> Username, Caption(optional), Post image, Number of likes
+
+##### --> The Feed dynamically updates based on the search input from the Topbar.
+
+### 4. Rightbar
+#### - Shows Birthday Notifications.
+
+#### - Displays a list of Online Friends
+
